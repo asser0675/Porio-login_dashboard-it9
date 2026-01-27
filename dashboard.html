@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            box-shadow: 0 10px 25px rgb(60, 85, 109);
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: #b1c8e7;
+            
+        }
+
+        .dashboard-container {
+            width: 900px;
+            background: #e3efff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgb(41, 85, 126);
+            text-align: center;
+        }
+        .dashboard-container h2{
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #3ba2dd;
+            color: white;
+        }
+
+        .logout {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #ffffff;
+            background: #d9534f;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .logout:hover {
+            background: #c9302c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <h1>Dashboard</h1>
+        <h2>
+          Welcome Back!
+        </h2>
+
+        <table>
+            <h4>Student Records</h4>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0001</td>
+                    <td>Shaarky Shan</td>
+                    <td>s.sharky@gmail.com</td>
+                    <td>BS Information Technology</td>
+                </tr>
+                <tr>
+                    <td>0002</td>
+                    <td>Shani Shanshan</td>
+                    <td>s.shepherd@gmail.com</td>
+                    <td>BS Information Technology</td>
+                </tr>
+                <tr>
+                    <td>0003</td>
+                    <td>Risa Meyang</td>
+                    <td>r.meyang@gmail.com</td>
+                    <td>BS Information Technology</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="login.html" class="logout">Logout</a>
+    </div>
+
+</body>
+</html>
