@@ -25,7 +25,6 @@ This project is intended for academic purposes and front-end practice only. No b
 If the user **does not have an account**:
 
 * Click the **"Register here"** link to go to the registration page.
-
 ---
 
 ### Registration Page Instructions
