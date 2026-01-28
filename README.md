@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a simple **Login and Registration Dashboard** created using **HTML and CSS**. It demonstrates basic user interface design, form validation using HTML5, and page navigation.
+This project is a simple **Login and Registration Dashboard** created using **HTML and CSS**. It demonstrates basic user interface design, and page navigation.
 
 The application consists of:
 
